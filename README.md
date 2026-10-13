@@ -17,10 +17,10 @@
 | 学号 | `STUDENT_ID`（请自行替换为真实学号） |
 | 姓名 | `YOUR_NAME`（请自行替换为真实姓名） |
 | 专业 | `YOUR_MAJOR`（请自行替换为真实专业） |
-| 仓库地址 | <https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME.github.io> |
+| 仓库地址 | <https://github.com/cwb385/cwb385.github.io> |
 
 > ⚠️ 首次使用本仓库，请用 **VSCode → Ctrl+Shift+H** 全局搜索
-> `STUDENT_ID` / `YOUR_NAME` / `YOUR_MAJOR` / `YOUR_GITHUB_USERNAME` 替换为真实信息。
+> `STUDENT_ID` / `YOUR_NAME` / `YOUR_MAJOR` 替换为真实信息（仓库地址已自动填好）。
 
 ---
 
@@ -72,14 +72,13 @@ week-XX-课程简称-主题/
 
 ```bash
 # 克隆仓库到本地
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME.github.io.git
-cd YOUR_GITHUB_USERNAME.github.io
+git clone https://github.com/cwb385/cwb385.github.io.git
+cd cwb385.github.io
 
 # 替换占位符（VSCode 全局替换更快）
-#   STUDENT_ID            -> 你的学号
-#   YOUR_NAME             -> 你的姓名
-#   YOUR_MAJOR            -> 你的专业
-#   YOUR_GITHUB_USERNAME  -> 你的 GitHub 用户名
+#   STUDENT_ID  -> 你的学号
+#   YOUR_NAME   -> 你的姓名
+#   YOUR_MAJOR  -> 你的专业
 ```
 
 ### 每周提交流程
