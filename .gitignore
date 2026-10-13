@@ -1,0 +1,188 @@
+# ============================================================
+#  .gitignore  ——  个人课程作品集（南昌大学 / 全学期 16 周）
+#  说明：本文件告诉 Git 哪些文件"不要上传"（系统垃圾、临时文件、
+#        编译产物、敏感凭据等），保持仓库干净。
+# ============================================================
+
+# ---------- 1. 操作系统垃圾 ----------
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# ---------- 2. IDE / 编辑器临时文件 ----------
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains (IntelliJ / PyCharm / WebStorm)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Visual Studio / VS Code for C/C++
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.cachefile
+ipch/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.pdb
+*.exp
+*.ilk
+
+# ---------- 3. 常见语言编译产物 / 依赖 ----------
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Java / Maven / Gradle
+target/
+*.jar
+*.war
+*.ear
+*.class
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# JavaScript / Node / 前端
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+.nuxt/
+out/
+.cache/
+.parcel-cache/
+coverage/
+*.tsbuildinfo
+
+# C / C++
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeCache.txt
+compile_commands.json
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.dll~
+*.so
+*.test
+*.out
+vendor/
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# ---------- 4. 日志与缓存 ----------
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+.cache/
+.tmp/
+.temp/
+
+# ---------- 5. 敏感信息（务必不要上传） ----------
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+secrets/
+credentials.json
+config.local.*
+
+# ---------- 6. 大型二进制 / 文档 ----------
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.pdf
+!docs/**/*.pdf
+!README/**/*.pdf
+*.mp4
+*.mov
+*.avi
+*.psd
+*.ai
+
+# ---------- 7. Office 临时文件 ----------
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ---------- 8. 数据库 / 数据集 ----------
+*.db
+*.sqlite
+*.sqlite3
+data/raw/
+!data/.gitkeep
+!datasets/.gitkeep
