@@ -186,3 +186,8 @@ config.local.*
 data/raw/
 !data/.gitkeep
 !datasets/.gitkeep
+
+# ---------- 9. 本地凭据文件（绝不提交）----------
+.git-token
+*.token
+*.secret
